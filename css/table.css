@@ -1,0 +1,39 @@
+.table__cell--league {
+    background-color: blue;
+    color: white;
+    font-weight: normal;
+}
+
+.table__cell {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center; 
+    border-collapse: collapse; 
+}
+
+.table__cell--special {
+    background-color: crimson;
+    color: white;
+    font-weight: normal;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.table__row:nth-child(even) {
+    background-color: #eeee;
+}
+
+.table__row:hover {
+    background-color: #ddd;
+}
+
+.table__container {
+    overflow-x: auto;
+}
+
+.table__caption {
+    padding: 10px;
+   }

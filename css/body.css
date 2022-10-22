@@ -1,0 +1,11 @@
+.body {
+    max-width: 1000px;
+    background-color: #c0d4f8;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.dark {
+    background-color: #ffffff;
+}

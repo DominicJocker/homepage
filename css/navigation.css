@@ -1,0 +1,33 @@
+.navigation {
+    display: inline;
+}
+
+.navigation__unorderdList {
+    background-color: blue;
+    color:white;
+    list-style: none;
+    text-align: center;
+    max-width: center;
+
+  }
+
+  .navigation__listItem {
+    margin: 10px 0;
+    display: inline-block;
+    margin: 40px;
+    font-size: 1.1em;
+  }
+
+  .navigation__link:hover {
+    color: #fffb00;
+    border-bottom: 1px solid;
+    outline: none;
+   }
+
+   .navigation__link {
+    color: #ffffff;
+    text-decoration: solid;
+    
+}
+
+  
