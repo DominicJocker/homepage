@@ -8,7 +8,7 @@
         const none = document.querySelector(".js-currentTheme");
 
         body.classList.toggle("darkTheme");
-        none.innerText = body.classList.contains("darkTheme") ? " dark page" : " light page";
+        none.innerText = body.classList.contains("darkTheme") ? " dark" : " light";
     };
     
     const init = () => {
